@@ -2,11 +2,11 @@
   "name": "new-shop",
   "type": "module",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lee's shop",
   "main": "index.js",
   "scripts": {
     "build": "cd frontend && npm install && npm run build",
-    "start": "nodemon --watch backend backend/server.js"
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
   },
   "repository": {
     "type": "git",
